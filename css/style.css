@@ -14,6 +14,15 @@ h1 {
 
 }
 
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.0rem;
+}
+
+p {
+    color: gray;
+}
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -44,4 +53,24 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+    padding:  7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.image {
+    width: 60%;
+
+}
+
+.image:hover {
+   color: #ff4c68; 
 }

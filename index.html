@@ -4,17 +4,17 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
-<!--googlefonts=-->
+  <!--googlefonts=-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <!--style-->
   <link rel="stylesheet" href="css/style.css">
 
-<!--load all styles --> 
+  <!--load all styles -->
 
-<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
- 
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+
 
   <!--bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
@@ -68,7 +68,8 @@
 
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+            Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button">Download.</button>
         </div>
 
@@ -87,15 +88,32 @@
   <!-- Features -->
 
   <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <img  class="image" src="data:image/png;base64,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" alt="">
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+  
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+      </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+      <div class="feature-box col-lg-4">
+        <img class="image" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/red-target-on-white-background-elena-sysoeva.jpg" alt="">
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <img class="image" src="https://media.istockphoto.com/photos/red-heart-isolated-on-white-background-picture-id637711124?k=20&m=637711124&s=170667a&w=0&h=2Y6d6Q2h2whUS0ftmPbtxXgmiByUywOAgnNgArWEzYA=" alt="">
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+
+      </div>
+
+
+    </div>
+
 
   </section>
 
