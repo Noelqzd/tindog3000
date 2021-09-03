@@ -65,10 +65,10 @@ p {
 /* Title Image */
 
 .title-image {
-    width: 23%;
+    width: 33%;
     transform: rotate(25deg);
     position: absolute;
-    left:48%;
+    left:43%;
 }
 
 /* Features Section */
@@ -134,6 +134,14 @@ p {
     padding: 3% 2%;
 }
 
-.img1 {
-width: 10%;
+@media (max-width: 1028px){
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+
+    }
 }
